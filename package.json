@@ -4,7 +4,7 @@
   "description": "API development with Node.js applying jwt technology for their roles and security.",
   "main": "index.js",
   "scripts": {
-    "build":"babel src --out-dir build",
+    "build": "babel src --out-dir build",
     "dev": "nodemon src/index.js --exec babel-node",
     "start": "node build/index.js"
   },

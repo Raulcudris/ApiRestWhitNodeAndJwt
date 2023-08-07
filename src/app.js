@@ -6,11 +6,10 @@ import productsRoutes from './routes/products.routes';
 
 const app = express();
 
-
-
 app.set('pkg',pkg);
 
 app.use(morgan('dev'));
+app.use(express.json());
 
 app.get('/',(req,res)=>{
     res.json({
